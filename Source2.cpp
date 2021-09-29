@@ -2,40 +2,40 @@
 using namespace std;
 int main() {
 	int a, b;
-	cin » a » b;
+	cin Â» a Â» b;
 	setlocale(LC_ALL, "Rus");
 	switch (a) {
 	case 1:
-		cout « 365 - (31 - (31 - b)) « endl; break;
+		cout Â« 365 - (31 - (31 - b)) Â« endl; break;
 	case 3:
-		cout « 365 - ((28 + (2 * 31)) - (31 - b)) « endl; break;
+		cout Â« 365 - ((28 + (2 * 31)) - (31 - b)) Â« endl; break;
 	case 5:
-		cout « 365 - ((28 + (3 * 31) + 30) - (31 - b)) « endl; break;
+		cout Â« 365 - ((28 + (3 * 31) + 30) - (31 - b)) Â« endl; break;
 	case 7:
-		cout « 365 - ((28 + (4 * 31) + (30 * 2)) - (31 - b)) « endl; break;
+		cout Â« 365 - ((28 + (4 * 31) + (30 * 2)) - (31 - b)) Â« endl; break;
 	case 8:
-		cout « 365 - ((28 + (5 * 31) + (30 * 2)) - (31 - b)) « endl; break;
+		cout Â« 365 - ((28 + (5 * 31) + (30 * 2)) - (31 - b)) Â« endl; break;
 	case 10:
-		cout « 365 - ((28 + (6 * 31) + (30 * 3)) - (31 - b)) « endl; break;
+		cout Â« 365 - ((28 + (6 * 31) + (30 * 3)) - (31 - b)) Â« endl; break;
 	case 12:
-		cout « 365 - ((28 + (7 * 31) + (30 * 4)) - (31 - b)) « endl; break;
+		cout Â« 365 - ((28 + (7 * 31) + (30 * 4)) - (31 - b)) Â« endl; break;
 	case 4:
-		cout « 365 - (28 + (2 * 31) + 30 - (30 - b)) « endl; break;
+		cout Â« 365 - (28 + (2 * 31) + 30 - (30 - b)) Â« endl; break;
 	case 6:
-		cout « 365 - (28 + (3 * 31) + (2 * 30) - (30 - b)) « endl; break;
+		cout Â« 365 - (28 + (3 * 31) + (2 * 30) - (30 - b)) Â« endl; break;
 	case 9:
-		cout « 365 - (28 + (5 * 31) + (3 * 30) - (30 - b)) « endl; break;
+		cout Â« 365 - (28 + (5 * 31) + (3 * 30) - (30 - b)) Â« endl; break;
 	case 11:
-		cout « 365 - (28 + (6 * 31) + (4 * 30) - (30 - b)) « endl; break;
+		cout Â« 365 - (28 + (6 * 31) + (4 * 30) - (30 - b)) Â« endl; break;
 	case 2:
 		if (b < 29) {
-			cout « 365 - (28 + 31 - (28 - b)) « endl; break;
+			cout Â« 365 - (28 + 31 - (28 - b)) Â« endl; break;
 		}
 		else {
-			cout « "Îøèáêà" « endl; break;
+			cout Â« "ÐžÑˆÐ¸Ð±ÐºÐ°" Â« endl; break;
 		}
 	default:
-		cout « "Îøèáêà" « endl; break;
+		cout Â« "ÐžÑˆÐ¸Ð±ÐºÐ°" Â« endl; break;
 	}
 
 	return 0;
